@@ -1,0 +1,14 @@
+jaffle_shop:
+  target: dev
+  outputs:
+      dev:
+        type: postgres
+        host: 0.0.0.0
+        user: postgres
+        password: mine
+        port: 5432
+        dbname: jaffle_shop
+        schema: dbt
+        threads: 1
+        keepalives_idle: 0
+        connection_check_timeout: 10
