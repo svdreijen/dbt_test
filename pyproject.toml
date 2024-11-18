@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dbt-test"
+version = "0.1.0"
+description = ""
+authors = ["Siem van den Reijen <s.vandenreijen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt = "^1.0.0.38.21"
+dbt-core = "^1.8.8"
+dbt-postgres = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
